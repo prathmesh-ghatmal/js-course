@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            q7
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            const random=Math.random();
+            let result="";
+            if (random<0.5){
+                result="heads";
+            }
+            else{
+                result="tails";
+            }
+            let guess="heads";
+
+            if(result===guess){
+                console.log("you win"+result);
+            }
+            else{
+                console.log("you lost"+result);
+            }
+        </script>
+    </body>
+</html>
